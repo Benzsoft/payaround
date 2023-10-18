@@ -1,0 +1,8 @@
+.myButton {
+    transition: transform 0.1s; /* smooth transition for scaling */
+  }
+  
+  .myButton:active { /* when button is clicked */
+    transform: scale(0.95); /* button is slightly reduced in size */
+  }
+  

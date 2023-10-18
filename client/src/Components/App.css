@@ -1,0 +1,399 @@
+body {
+background-color: #B4DBFF;
+color: #000;
+}
+
+
+.App[data-theme='light'] {
+  text-align: center;
+}
+
+.App[data-theme='dark'] {
+  text-align: end;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form {
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: 90%;
+  /* background-color: red; */
+  display: block;
+  margin: 0 auto;
+}
+.text1 {
+  padding: 5px 15px;
+  border-radius: 10px;
+  /* background-color: red; */
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.signup {
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0.8em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  background: #369FFF;
+  color: white !important;
+}
+.form--input::placeholder {
+  color: white !important;
+}
+
+.form--input:focus {
+  border: 1px solid #639;
+  outline: none;
+}
+
+.form--marketing {
+  /* display: flex;
+  /* margin-left:1rem; */
+  /* justify-content: center; */
+  display: block;
+
+  margin: auto;
+  width: 85%;
+
+  /* align-items: center; */
+  /* text-align: center; */
+}
+.form_area_marketing {
+  display: flex !important;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.25em;
+  padding-right: 5px;
+}
+/* .form_input_maeketing{
+   text-align: center;
+ margin: 0px -30px 0px 0px ;
+} */
+.checkbox {
+  /* padding-left:2px ; */
+}
+
+.form--marketing > input {
+  /* margin-right: 0.625em; */
+}
+
+.form--marketing > label {
+  color: grey;
+}
+
+.checkbox,
+input[type='checkbox'] {
+  accent-color: #639;
+}
+.btn{
+  background: #369FFF;
+}
+.form--submit {
+  width: 300PX;
+  display: block;
+  margin: auto;
+  padding: 14px 30px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  background: #369FFF;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: 0.5s;
+  font-weight: 600;
+  letter-spacing: 2px;
+  box-shadow: -1px -1px 10px #63626279;
+}
+
+.form--submit:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.navlink {
+  color: #004085 !important ;
+}
+option {
+  color: red !important;
+}
+.term_section {
+  min-height: 100vh;
+}
+/* .cta-area {
+  display: none !important;
+} */
+
+/* Notification start */
+
+.notification {
+  position: fixed;
+  top: 100px;
+  right: -999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background: #f2ebeb;
+  border-top: 5px solid #4a4af5c3;
+  border-radius: 8px;
+  height: 100px;
+  transition: 1s;
+  z-index: 9999;
+}
+
+.notification h1 {
+  font-size: 1.3rem;
+  color: #004085;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.notification.add {
+  right: 50px !important;
+}
+.body {
+  z-index: -11;
+}
+.paymentNotification-area {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  width: 0%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.paymentNotification-area.show {
+  width: 100%;
+}
+.paymentNotification {
+  background: #25282e;
+  width: 450px;
+  /* height: 100px; */
+  transition: 1s;
+  border-radius: 33.3078px;
+  /* overflow: hidden; */
+}
+
+.paymentNotification-logo-area {
+  display: flex;
+  justify-content: center;
+}
+.paymentNotification-logo-bg {
+  position: relative;
+  /* left: 0; */
+  width: 75px;
+  height: 75px;
+  background: #25282e;
+  margin-top: -40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #1c1f2678;
+}
+.paymentNotification-logo {
+  position: absolute;
+  right: 17px;
+  bottom: 20px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  font-weight: 800;
+  background: #41d195;
+  /* color: #0000 !important; */
+  border-radius: 50%;
+  z-index: 999999;
+  /* margin-top: -20px; */
+}
+.paymentNotification-header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33.3078px;
+  line-height: 47px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.paymentNotification-para {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.3155px;
+  line-height: 37px;
+  /* identical to box height, or 157% */
+  padding: 0 10px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.72);
+}
+.paymentNotification-number,
+.paymentNotification-date,
+.paymentNotification-method,
+.paymentNotification-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+}
+/* Crad & Footer in here */
+@media screen and (max-width: 800px) {
+  .card-block-md {
+    display: block !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .card-block-md .card {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .change {
+    width: 700px !important;
+    overflow-x: scroll;
+    /* overflow-wrap: break-word; */
+  }
+  .term-area h2 {
+    font-size: 28px !important;
+  }
+  .term-header {
+    font-size: 30px !important;
+  }
+  .term-pra {
+    width: 90% !important;
+    font-size: 19px;
+  }
+  .term {
+    width: 95% !important;
+  }
+  .form_input_maeketing {
+    margin: 0px !important;
+  }
+  .form--marketing {
+    text-align: start;
+  }
+}
+@media screen and (max-width: 450px) {
+  .list-unstyled {
+    height: 60px !important;
+  }
+  .card h3 {
+    padding: 0px !important;
+    font-size: 1rem !important;
+  }
+  .card select {
+    font-size: 13px !important ;
+  }
+  .waltex {
+    font-size: 10px !important;
+    padding: 0 20px !important;
+  }
+  .checkbox {
+    font-size: 0.9rem;
+  }
+  .cta-area .card {
+    margin-top: 200px;
+  }
+  .form--input {
+    font-size: 13px !important;
+  }
+
+  .footer-items {
+    display: block !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .footer-logo {
+    margin-left: 50px;
+  }
+}
+
+/* Home start */
+.my_click {
+  position: relative;
+}
+.click_area {
+  display: none;
+  position: absolute;
+  top: 57px;
+  /* left: 50px; */
+  width: 50px;
+  margin-left: 10px;
+  border-radius: 8px;
+  padding: 2px;
+  background-image: linear-gradient(
+    to right top,
+    #00c0fb,
+    #00cbf7,
+    #00d8bf,
+    #00d696,
+    #01d265
+  );
+  box-shadow: 0px 1px 10px #00000051;
+}
+
+.click_area.add_click {
+  display: block;
+}
+
+@media screen and (min-width: 1600px) {
+  .w_chnage {
+    width: 70% !important;
+  }
+}

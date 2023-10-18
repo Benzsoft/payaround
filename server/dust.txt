@@ -1,0 +1,20 @@
+  // res.header('Content-Type', 'application/json');
+
+  // client1.messages.create({
+  //   //siam
+  //     //from: "+13203029912",
+  //   //bayers
+  //     from:'+13203029912',
+  //     to: req.body.to,
+  //     body: `${req.body.body[0]}
+  //          ${req.body.body[1]}
+  //          ${parseInt(req.body.body[2]) + (parseInt(req.body.body[2]) / 100) * 10}`
+  //   })
+  //   .then(() => {
+  //     console.log("done");
+  //   })
+  //   .catch(err => {
+  //     // res.send(JSON.stringify({  number : req.body.to, method : req.body.body[1] }));
+  //     console.log(err);
+
+  //   });

@@ -1,0 +1,28 @@
+body{
+  position: relative;
+}
+
+.pop{
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+.container{
+ background: #6929C4;
+ box-shadow: 0px 0px 10px #00000020;
+ border-radius: 8px;
+ padding: 10px 20px !important;
+}
+.header{
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+
+.pop p{
+  color: #fff;
+  margin: 4px !important;
+  
+}
