@@ -1,5 +1,8 @@
 
-![](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?w=0.1)
+<p align="center">
+  <img src="https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png" width="10%" />
+</p>
+
 
 # Payaround (Peyem) : Bridging Borders, Empowering Lives
 
