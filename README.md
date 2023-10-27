@@ -1,7 +1,7 @@
 https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png
 [alt text](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?raw=true)
 ## Hi There
-![Hi There](https://img.freepik.com/premium-vector/welcome-banner-word-white-background-colorful-rainbow-sign-label-design-wallpaper-vector-illustration_87543-10859.jpg?w=2000)
+![Hi There](ttps://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?w=2000)
 
 # Payaround (Peyem) : Bridging Borders, Empowering Lives
 
