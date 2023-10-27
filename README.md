@@ -23,7 +23,7 @@
 
 Payaround is a groundbreaking web3 project crafted on the robust Celo Blockchain, meticulously designed to redefine cross-border remittances for the vibrant Haitian community scattered across the globe. It is more than a remittance service; it is a lifeline, a beacon of hope, connecting the Haitian diaspora with their roots, providing a safe, efficient, and user-friendly channel to support families back in Haiti. Built with a deep-rooted commitment to Regenerative Finance (ReFi), our app leverages the power of web3 to foster economic empowerment, fortify social connections, and heighten ecological consciousness, all while promoting eco-friendly behavior.
 
-🔗 **Demo Version**: [https://peyem.netlify.app/](https://peyem.netlify.app/)
+🔗 **Demo Version**: [https://peyem.netlify.app/](https://payaround.netlify.app/)
 
 ## Key Features and Benefits
 
