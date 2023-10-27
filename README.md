@@ -1,7 +1,7 @@
 https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png
 [alt text](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?raw=true)
 ## Hi There
-![Hi There](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?w=200)
+![Hi There](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?w=20)
 
 # Payaround (Peyem) : Bridging Borders, Empowering Lives
 
