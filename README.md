@@ -1,4 +1,4 @@
-# Payaround (Peyem) - Celosend: Bridging Borders, Empowering Lives
+# Payaround (Peyem) : Bridging Borders, Empowering Lives
 
 "Peyem" in Haitian Creole translates to "PAY ME," embodying our mission to empower Haitians worldwide through seamless financial transactions and local market opportunities.
 
