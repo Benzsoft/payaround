@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png" width="10%" />
+  <img src="https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png" width="50%" />
 </p>
 
 
