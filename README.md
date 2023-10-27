@@ -1,3 +1,6 @@
+https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png
+[alt text](https://github.com/Benzsoft/payaround/blob/master/client/public/PA-LOGO.png?raw=true)
+
 # Payaround (Peyem) : Bridging Borders, Empowering Lives
 
 "Peyem" in Haitian Creole translates to "PAY ME," embodying our mission to empower Haitians worldwide through seamless financial transactions and local market opportunities.
